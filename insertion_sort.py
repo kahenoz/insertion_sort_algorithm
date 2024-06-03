@@ -9,4 +9,8 @@ def myFunc(A):
             A[y+1] = A[y]
             y -= 1
 
+    A[y+1] = key        
+
 array = [31,41,59,26,41,58]
+myFunc(array)
+print(array)
